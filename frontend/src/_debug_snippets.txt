@@ -1,6 +1,0 @@
-POS 14254 LINE 302
-'ection"><div className="section-top"><div><p className="eyebrow">ROOMS AVAILABLE</p><h2>{selectedHotel?.name}</h2><p>{selectedHotel?.city}</p></div><div className="section-actions"><button className="ghost" onClick={() => setPage(\'home\')}>Back to homepage</button></div></div>{loadingRooms ? <p className="notice">Loading rooms...</p> : <div className="room-list">{rooms.map((room) => <article className="room-card" key={room.id}><div><h3>{room.name}</h3><p>{room.room_type}</p></div><div><strong>{fo'
-================================================================================
-POS 16674 LINE 303
-'Click={closeAuthModal}><div className="panel" onClick={(event) => event.stopPropagation()}><h2>{authMode === \'signup\' ? \'Sign up\' : authMode === \'update\' ? \'Update profile\' : \'Login\'}</h2><p>{authMode === \'signup\' ? \'Create your account to continue booking.\' : authMode === \'update\' ? \'Update your profile information.\' : \'Use your email or username to sign in.\'}</p>{authMessage && <p className="modal-error">{authMessage}</p>}<form onSubmit={handleAuthSubmit} autoComplete="off"><label className="f'
-================================================================================
